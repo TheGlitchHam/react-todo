@@ -35,6 +35,7 @@ function App(props) {
       }
       return task;
     });
+    setTasks(editedTaskList);
   }
 
   const taskList = tasks.map((task) => (
